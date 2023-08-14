@@ -1,4 +1,5 @@
 import mongoose, { Schema } from "mongoose";
+// 내용 업데이트
 
 const roomSchema = new Schema({
   title: {

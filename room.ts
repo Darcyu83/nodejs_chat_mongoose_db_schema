@@ -1,5 +1,6 @@
 import mongoose, { Schema } from "mongoose";
 
+// made this folder submodule for central control
 const roomSchema = new Schema({
   title: {
     type: String,

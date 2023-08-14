@@ -15,7 +15,12 @@ const connectMongoose = () => {
       console.log("몽고디비 연결 성공", process.env.MONGO_URL);
     })
     .catch((err) => {
-      console.log("몽고디비 연결 에러", process.env.MONGO_URL, err);
+      console.log(
+        "몽고디비 연결 에러",
+        process.env.YUDS,
+        process.env.MONGO_URL,
+        err
+      );
     });
 };
 
